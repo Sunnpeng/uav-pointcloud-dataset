@@ -1,0 +1,9 @@
+{
+  "tasks": 9,
+  "source01": 8,
+  "source02": 1,
+  "original_pose_rows_verified": true,
+  "original_labels_overwritten": false,
+  "pcd_copies_verified": true,
+  "yaw_recalculated": false
+}

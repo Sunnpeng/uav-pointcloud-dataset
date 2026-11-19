@@ -1,0 +1,35 @@
+{
+  "collection_mode": "unassigned_supplement",
+  "groups": [
+    {
+      "id": "source01",
+      "split": "source01",
+      "sequence": "pcd_pose_20250515",
+      "start": 0,
+      "end": 2678,
+      "total": 5,
+      "display_name": "旧标注修复：采集1"
+    },
+    {
+      "id": "source02",
+      "split": "source02",
+      "sequence": "pcd_pose_20250515_1",
+      "start": 0,
+      "end": 3876,
+      "total": 1,
+      "display_name": "旧标注修复：采集2"
+    }
+  ],
+  "window_title": "无人机点云｜旧标注修复",
+  "intro_text": "修复旧框；无法辨认则记录跳过",
+  "primary_distance_scope_m": [
+    0,
+    10
+  ],
+  "purpose": "替代原错误标签，非新增样本",
+  "old_labels_are_reference_only": true,
+  "batch_original_frames": 9,
+  "repaired_frames": 6,
+  "excluded_unannotated_frames": 3,
+  "completed": true
+}

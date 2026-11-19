@@ -1,0 +1,7 @@
+﻿sequence,split_a,split_b,minimum_gap_seconds,file_a,file_b
+pcd_pose_20250515,train,val,5.102449178695679,cloud_00775.pcd,cloud_00826.pcd
+pcd_pose_20250515,train,test,5.099516868591309,cloud_01226.pcd,cloud_01175.pcd
+pcd_pose_20250515,val,test,8.598493099212646,cloud_00948.pcd,cloud_01034.pcd
+pcd_pose_20250515_1,train,val,5.402622938156128,cloud_03429.pcd,cloud_03375.pcd
+pcd_pose_20250515_1,train,test,5.097140073776245,cloud_01575.pcd,cloud_01626.pcd
+pcd_pose_20250515_1,val,test,5.000396013259888,cloud_03225.pcd,cloud_03175.pcd

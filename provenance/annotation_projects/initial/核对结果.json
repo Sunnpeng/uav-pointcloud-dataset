@@ -1,0 +1,29 @@
+{
+  "train": {
+    "pcd_count": 767,
+    "pose_count": 767,
+    "source_sequences": [
+      "pcd_pose_20250515"
+    ],
+    "copied_pcd_integrity_verified": true,
+    "pose_rows_unchanged": true
+  },
+  "val": {
+    "pcd_count": 83,
+    "pose_count": 83,
+    "source_sequences": [
+      "pcd_pose_20250515_1"
+    ],
+    "copied_pcd_integrity_verified": true,
+    "pose_rows_unchanged": true
+  },
+  "test": {
+    "pcd_count": 210,
+    "pose_count": 210,
+    "source_sequences": [
+      "pcd_pose_20250515_1"
+    ],
+    "copied_pcd_integrity_verified": true,
+    "pose_rows_unchanged": true
+  }
+}

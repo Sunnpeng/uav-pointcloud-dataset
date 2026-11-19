@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "targets": [
+    "D:\\Myproject\\dataset_1500_sequence_split",
+    "D:\\Myproject\\dataset_audit",
+    "D:\\Myproject\\outputs",
+    "D:\\Myproject\\待标注",
+    "D:\\Myproject\\补充待标注_0-10米",
+    "D:\\Myproject\\旧标注重做_9帧",
+    "D:\\Myproject\\标注任务_看这里",
+    "D:\\Myproject\\数据清理记录",
+    "D:\\Myproject\\__pycache__",
+    "D:\\Myproject\\open3d标注工具\\verification_output",
+    "D:\\Myproject\\open3d标注工具\\verification_supplement_output",
+    "D:\\Myproject\\open3d标注工具\\__pycache__",
+    "D:\\Myproject\\open3d标注工具\\verification_result.json"
+  ],
+  "files": 11952,
+  "bytes": 424491629,
+  "external_links_removed_without_deleting_targets": [
+    {
+      "path": "D:\\Myproject\\outputs\\dataset_statistics_20261119\\node_modules",
+      "target": "C:\\Users\\13203\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+      "directory": true
+    }
+  ],
+  "annotator_progress": {
+    "initial": {
+      "train": [
+        490,
+        0,
+        767
+      ],
+      "val": [
+        49,
+        0,
+        83
+      ],
+      "test": [
+        156,
+        0,
+        210
+      ]
+    },
+    "supplement": {
+      "source01": [
+        747,
+        0,
+        747
+      ],
+      "source02": [
+        1177,
+        0,
+        1232
+      ]
+    },
+    "repair": {
+      "source01": [
+        5,
+        0,
+        5
+      ],
+      "source02": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "migrated_projects": [
+    {
+      "original": "D:\\Myproject\\待标注",
+      "current": "D:\\Myproject\\dataset_merged_temporal\\provenance\\annotation_projects\\initial"
+    },
+    {
+      "original": "D:\\Myproject\\补充待标注_0-10米",
+      "current": "D:\\Myproject\\dataset_merged_temporal\\provenance\\annotation_projects\\supplement"
+    },
+    {
+      "original": "D:\\Myproject\\旧标注重做_9帧",
+      "current": "D:\\Myproject\\dataset_merged_temporal\\provenance\\annotation_projects\\repair"
+    }
+  ],
+  "original_project_files_unchanged": true,
+  "final_clouds_labels_unchanged": true
+}

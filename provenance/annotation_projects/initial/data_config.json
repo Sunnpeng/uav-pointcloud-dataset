@@ -1,0 +1,70 @@
+{
+  "target_frames": 1500,
+  "existing": 440,
+  "new": 1060,
+  "groups": [
+    {
+      "id": "flight_A",
+      "sequence": "pcd_pose_20250515",
+      "split": "train",
+      "start": 0,
+      "end": 2678,
+      "total": 997,
+      "far_goal": 370,
+      "far_acceptance": 300,
+      "target_total": 1000
+    },
+    {
+      "id": "flight_B",
+      "sequence": "pcd_pose_20250515_1",
+      "split": "val",
+      "start": 0,
+      "end": 2250,
+      "total": 250,
+      "far_goal": 20,
+      "far_acceptance": 20,
+      "target_total": 250
+    },
+    {
+      "id": "flight_C",
+      "sequence": "pcd_pose_20250515_1",
+      "split": "test",
+      "start": 2850,
+      "end": 3876,
+      "total": 250,
+      "far_goal": 50,
+      "far_acceptance": 50,
+      "target_total": 250
+    }
+  ],
+  "same_recording_split_gap_frames": 599,
+  "source_timestamps_available": true,
+  "grouping_boundary_status": "Provisional episodes inferred from pose trajectories; human confirmation required",
+  "thresholds": {
+    "far_min": 8,
+    "sparse_min": 1,
+    "sparse_max": 30,
+    "far_sparse_min": 450,
+    "train_far_sparse_min": 300,
+    "val_far_sparse_min": 20,
+    "test_far_sparse_min": 50,
+    "far10_sparse_min": 150
+  },
+  "training_ready": false,
+  "validation_rebalance": {
+    "replaced_unannotated_far_frames": 34,
+    "added_distance_range": [
+      4,
+      6
+    ],
+    "locked_existing_user_annotations": 49,
+    "archive": "D:\\Myproject\\待标注\\调整记录\\验证集距离平衡_20261119_012657",
+    "reason": "Previous new validation queue overrepresented far frames"
+  },
+  "active_candidate_frames": 1497,
+  "last_old_label_cleanup": {
+    "repaired": 6,
+    "excluded": 3,
+    "archive": "D:\\Myproject\\数据清理记录\\旧标注修复与剔除_20261120_011639"
+  }
+}

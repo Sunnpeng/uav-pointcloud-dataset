@@ -1,0 +1,30 @@
+{
+  "total_candidates": 1979,
+  "groups": {
+    "source01": {
+      "source_sequence": "pcd_pose_20250515",
+      "candidates": 747,
+      "pose_rows": 747,
+      "estimated_distance_counts": {
+        "0-4m": 115,
+        "4-8m": 632
+      }
+    },
+    "source02": {
+      "source_sequence": "pcd_pose_20250515_1",
+      "candidates": 1232,
+      "pose_rows": 1232,
+      "estimated_distance_counts": {
+        "0-4m": 401,
+        "4-8m": 718,
+        "8-10m": 113
+      }
+    }
+  },
+  "prior_candidate_or_annotation_overlap": 0,
+  "pcd_copies_verified": true,
+  "pose_rows_verified": true,
+  "final_split_assigned": false,
+  "old_annotations_modified": false,
+  "yaw_recalculated": false
+}

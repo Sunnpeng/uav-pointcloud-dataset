@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-20",
+  "total_frames": 3056,
+  "train": 1935,
+  "val": 425,
+  "test": 401,
+  "temporal_reserve": 245,
+  "over10m_supplement": 50,
+  "time_group_seconds": 20,
+  "minimum_cross_split_gap_seconds": 5.000396013259888,
+  "code_repository": "https://github.com/Sunnpeng/uav-ugv-offline",
+  "dataset_repository": "https://github.com/Sunnpeng/uav-pointcloud-dataset",
+  "paths": "Active manifest paths are relative to this dataset root; original source paths are provenance only.",
+  "yaw_recalculated": false
+}

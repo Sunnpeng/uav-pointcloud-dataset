@@ -1,0 +1,31 @@
+{
+  "collection_mode": "unassigned_supplement",
+  "groups": [
+    {
+      "id": "source01",
+      "split": "source01",
+      "sequence": "pcd_pose_20250515",
+      "start": 0,
+      "end": 2678,
+      "total": 747,
+      "display_name": "采集1：pcd_pose_20250515"
+    },
+    {
+      "id": "source02",
+      "split": "source02",
+      "sequence": "pcd_pose_20250515_1",
+      "start": 0,
+      "end": 3876,
+      "total": 1232,
+      "display_name": "采集2：pcd_pose_20250515_1"
+    }
+  ],
+  "purpose": "先收集合格标注，之后按距离和时间组统一分配训练验证测试",
+  "primary_distance_scope_m": [
+    0,
+    10
+  ],
+  "annotations_are_not_preassigned_to_splits": true,
+  "candidates_are_estimates_not_ground_truth": true,
+  "original_pose_values_unchanged": true
+}

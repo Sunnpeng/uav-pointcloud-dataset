@@ -1,0 +1,4 @@
+﻿原始采集,原始PCD,原有集合,原有BIN,原始PCD路径,原旧标签归档路径,原因,清理批次,原始采集文件删除
+pcd_pose_20250515,cloud_00945.pcd,train,118.bin,D:\points(废）\pcd_pose_20250515\pcd\cloud_00945.pcd,D:\科研\点云数据集\train\label\118.txt,旧标注错误且本轮未重新标注；按用户要求从工作数据集剔除,D:\Myproject\数据清理记录\旧标注修复与剔除_20261120_011639,False
+pcd_pose_20250515,cloud_00947.pcd,train,120.bin,D:\points(废）\pcd_pose_20250515\pcd\cloud_00947.pcd,D:\科研\点云数据集\train\label\120.txt,旧标注错误且本轮未重新标注；按用户要求从工作数据集剔除,D:\Myproject\数据清理记录\旧标注修复与剔除_20261120_011639,False
+pcd_pose_20250515,cloud_00949.pcd,train,122.bin,D:\points(废）\pcd_pose_20250515\pcd\cloud_00949.pcd,D:\科研\点云数据集\train\label\122.txt,旧标注错误且本轮未重新标注；按用户要求从工作数据集剔除,D:\Myproject\数据清理记录\旧标注修复与剔除_20261120_011639,False

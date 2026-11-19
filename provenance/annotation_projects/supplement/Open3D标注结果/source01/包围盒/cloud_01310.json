@@ -1,0 +1,56 @@
+{
+  "format_version": 1,
+  "split": "source01",
+  "source_sequence": "pcd_pose_20250515",
+  "source_file": "cloud_01310.pcd",
+  "source_path": "D:\\points(废）\\pcd_pose_20250515\\pcd\\cloud_01310.pcd",
+  "source_sha256": "7e8e8b2398ab9de6474cf12db6891dd5965e6e2fb66aaa68f7a93e47390b6688",
+  "annotation_type": "axis_aligned_box",
+  "geometry_source": "selected_points_aabb",
+  "center": [
+    4.292682647705078,
+    -2.7827733755111694,
+    4.690101385116577
+  ],
+  "extent": [
+    0.28297996520996094,
+    0.37432217597961426,
+    0.19737005233764648
+  ],
+  "min_bound": [
+    4.151192665100098,
+    -2.9699344635009766,
+    4.591416358947754
+  ],
+  "max_bound": [
+    4.434172630310059,
+    -2.5956122875213623,
+    4.7887864112854
+  ],
+  "selected_point_count": 12,
+  "selected_source_point_indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    9,
+    11,
+    14,
+    18,
+    19,
+    20
+  ],
+  "center_distance": 6.940317210044116,
+  "sparse_size_manually_confirmed": false,
+  "pose_original_line": "cloud_01310.pcd -1.783285 -10.586775 -4.693458 0.024696 -0.019802 0.736174 -0.676051",
+  "pose_with_timestamp_original_line": "1747297441.388264 -1.783285 -10.586775 -4.693458 0.024696 -0.019802 0.736174 -0.676051",
+  "yaw_recalculated": false,
+  "annotation_status": "human_confirmed",
+  "saved_at_utc": "2026-11-19T15:22:52.396257+00:00",
+  "storage_group": "source01",
+  "final_dataset_split": null,
+  "allocation_status": "unassigned_supplement_pool",
+  "within_primary_0_10m": true
+}

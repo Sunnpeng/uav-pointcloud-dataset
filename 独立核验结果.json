@@ -1,0 +1,13 @@
+{
+  "frames_verified": 3056,
+  "raw_pose_rows_exact": true,
+  "pcd_bytes_preserved": true,
+  "bin_xyz_equal_raw_float32": true,
+  "training_label_loader_verified": true,
+  "unique_raw_frame_keys": true,
+  "cross_split_identical_clouds": 0,
+  "time_groups_do_not_cross_splits": true,
+  "minimum_cross_split_gap_seconds": 5.000396013259888,
+  "input_annotations_unchanged": true,
+  "yaw_recalculated": false
+}

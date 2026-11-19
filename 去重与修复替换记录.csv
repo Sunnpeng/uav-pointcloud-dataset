@@ -1,0 +1,7 @@
+﻿sequence,file,previous_label,preferred_label
+pcd_pose_20250515,cloud_00427.pcd,D:\Myproject\train\label\16.txt,D:\Myproject\旧标注重做_9帧\Open3D标注结果\source01\包围盒\cloud_00427.json
+pcd_pose_20250515,cloud_00444.pcd,D:\Myproject\train\label\33.txt,D:\Myproject\旧标注重做_9帧\Open3D标注结果\source01\包围盒\cloud_00444.json
+pcd_pose_20250515,cloud_00751.pcd,D:\Myproject\train\label\83.txt,D:\Myproject\旧标注重做_9帧\Open3D标注结果\source01\包围盒\cloud_00751.json
+pcd_pose_20250515,cloud_01040.pcd,D:\Myproject\train\label\123.txt,D:\Myproject\旧标注重做_9帧\Open3D标注结果\source01\包围盒\cloud_01040.json
+pcd_pose_20250515,cloud_01353.pcd,D:\Myproject\train\label\165.txt,D:\Myproject\旧标注重做_9帧\Open3D标注结果\source01\包围盒\cloud_01353.json
+pcd_pose_20250515_1,cloud_00616.pcd,D:\Myproject\test\label\5.txt,D:\Myproject\旧标注重做_9帧\Open3D标注结果\source02\包围盒\cloud_00616.json

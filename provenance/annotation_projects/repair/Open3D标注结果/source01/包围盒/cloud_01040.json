@@ -1,0 +1,54 @@
+{
+  "format_version": 1,
+  "split": "source01",
+  "source_sequence": "pcd_pose_20250515",
+  "source_file": "cloud_01040.pcd",
+  "source_path": "D:\\points(废）\\pcd_pose_20250515\\pcd\\cloud_01040.pcd",
+  "source_sha256": "98927962ae8f68677c24f38bd973556ffbada96931e73934f4abc5f702c5a5dd",
+  "annotation_type": "axis_aligned_box",
+  "geometry_source": "selected_points_aabb",
+  "center": [
+    7.756428003311157,
+    -0.7165717780590057,
+    6.024277448654175
+  ],
+  "extent": [
+    0.27907609939575195,
+    0.2186848521232605,
+    0.23855161666870117
+  ],
+  "min_bound": [
+    7.616889953613281,
+    -0.825914204120636,
+    5.905001640319824
+  ],
+  "max_bound": [
+    7.895966053009033,
+    -0.6072293519973755,
+    6.143553256988525
+  ],
+  "selected_point_count": 7,
+  "selected_source_point_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "center_distance": 9.84721124288615,
+  "sparse_size_manually_confirmed": false,
+  "pose_original_line": "cloud_01040.pcd 0.290637 -13.931730 -3.374313 0.089529 0.043487 0.740972 -0.664119",
+  "pose_with_timestamp_original_line": "1747297414.391150 0.290637 -13.931730 -3.374313 0.089529 0.043487 0.740972 -0.664119",
+  "yaw_recalculated": false,
+  "annotation_status": "human_confirmed",
+  "saved_at_utc": "2026-11-19T17:07:49.859156+00:00",
+  "storage_group": "source01",
+  "final_dataset_split": null,
+  "allocation_status": "unassigned_supplement_pool",
+  "within_primary_0_10m": true,
+  "annotation_purpose": "repair_old_label",
+  "replaces_annotation_path": "D:\\科研\\点云数据集\\train\\label\\123.txt",
+  "previous_annotation_problem": "框尺寸异常：91.2342 × 97.6430 × 13.4713 米，覆盖了大范围场景"
+}

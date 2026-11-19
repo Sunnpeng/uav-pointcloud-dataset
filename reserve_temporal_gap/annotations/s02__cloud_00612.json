@@ -1,0 +1,42 @@
+{
+  "sequence": "pcd_pose_20250515_1",
+  "file": "cloud_00612.pcd",
+  "source_pcd": "D:\\points(废）\\pcd_pose_20250515_1\\pcd\\cloud_00612.pcd",
+  "center": [
+    -0.7714,
+    -0.55585,
+    2.8754
+  ],
+  "extent": [
+    0.3892,
+    0.3937,
+    0.2414
+  ],
+  "label_source": "provenance/original_label_sources/184c76049dd79a9a_1.txt",
+  "annotation_origin": "原有标注",
+  "yaw_original_token": "1.390913",
+  "old_split": "test",
+  "old_bin": "1.bin",
+  "human_confirmed": false,
+  "frame": 612,
+  "pose_original_line": "cloud_00612.pcd -0.630260 -4.359744 -7.852597 -0.017159 0.018096 -0.640567 -0.767498",
+  "pose_with_timestamp_original_line": "1747299120.024028 -0.630260 -4.359744 -7.852597 -0.017159 0.018096 -0.640567 -0.767498",
+  "timestamp": 1747299120.024028,
+  "distance": 3.02852312893595,
+  "bearing_degrees": -144.22449745539606,
+  "elevation_degrees": 71.70258992032568,
+  "distance_bin": 1,
+  "bearing_bin": 0,
+  "split": "train",
+  "time_group": "pcd_pose_20250515_1__20s_003",
+  "role": "时间隔离备用",
+  "id": "s02__cloud_00612",
+  "box_point_count": 337,
+  "quality_note": "",
+  "export_directory": "reserve_temporal_gap",
+  "source_sha256": "6edca59419bac7b7efad5101c7739e7cf75076e8be45e96bbacbddb846ea409b",
+  "annotation_type": "axis_aligned_box",
+  "yaw_recalculated": false,
+  "yaw_available_from_old_label": true,
+  "box_extent_is_axis_aligned": true
+}

@@ -1,0 +1,124 @@
+{
+  "input_counts": {
+    "原有有效帧": 437,
+    "第一批补标": 695,
+    "第二批补标": 1924,
+    "旧框人工修复": 6
+  },
+  "unique_labeled": 3056,
+  "invalid_excluded": 0,
+  "repaired_overrides": 6,
+  "core_total": 2761,
+  "splits": {
+    "train": {
+      "total": 1935,
+      "distance": {
+        "0-2m": 20,
+        "2-4m": 543,
+        "4-6m": 610,
+        "6-8m": 598,
+        "8-10m": 164
+      },
+      "bearing": {
+        "-180~-135": 164,
+        "-135~-90": 193,
+        "-90~-45": 144,
+        "-45~0": 869,
+        "0~45": 156,
+        "45~90": 118,
+        "90~135": 44,
+        "135~180": 247
+      },
+      "elevation_min": 12.91648963824677,
+      "elevation_max": 89.43612155729241,
+      "source_counts": {
+        "pcd_pose_20250515": 932,
+        "pcd_pose_20250515_1": 1003
+      },
+      "time_groups": 13
+    },
+    "val": {
+      "total": 425,
+      "distance": {
+        "0-2m": 6,
+        "2-4m": 59,
+        "4-6m": 145,
+        "6-8m": 160,
+        "8-10m": 55
+      },
+      "bearing": {
+        "-180~-135": 0,
+        "-135~-90": 0,
+        "-90~-45": 47,
+        "-45~0": 300,
+        "0~45": 31,
+        "45~90": 47,
+        "90~135": 0,
+        "135~180": 0
+      },
+      "elevation_min": 11.665568754594183,
+      "elevation_max": 60.70555264765353,
+      "source_counts": {
+        "pcd_pose_20250515": 274,
+        "pcd_pose_20250515_1": 151
+      },
+      "time_groups": 5
+    },
+    "test": {
+      "total": 401,
+      "distance": {
+        "0-2m": 19,
+        "2-4m": 93,
+        "4-6m": 136,
+        "6-8m": 116,
+        "8-10m": 37
+      },
+      "bearing": {
+        "-180~-135": 0,
+        "-135~-90": 0,
+        "-90~-45": 0,
+        "-45~0": 212,
+        "0~45": 109,
+        "45~90": 0,
+        "90~135": 0,
+        "135~180": 80
+      },
+      "elevation_min": 17.358208795763744,
+      "elevation_max": 76.56627367215978,
+      "source_counts": {
+        "pcd_pose_20250515": 122,
+        "pcd_pose_20250515_1": 279
+      },
+      "time_groups": 4
+    }
+  },
+  "temporal_reserve": 245,
+  "over10m_supplement": 50,
+  "target_ratio": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "time_window_seconds": 20,
+  "minimum_required_gap_seconds": 5.0,
+  "minimum_actual_cross_split_gap_seconds": 5.000396013259888,
+  "alternatives": [
+    {
+      "duration": 20,
+      "score": 1.513269990262142,
+      "reserve": 245
+    },
+    {
+      "duration": 30,
+      "score": 1.7427936525657906,
+      "reserve": 246
+    }
+  ],
+  "source_files_unchanged": true,
+  "yaw_recalculated": false,
+  "exact_duplicate_clouds_cross_splits": 0,
+  "scope": "同场景同无人机的时间分组评估；不表示跨采集或跨场景独立泛化",
+  "direction": "由已标注中心计算雷达坐标系方位角atan2(y,x)和仰角；不是无人机yaw",
+  "time_group_status": "固定时长连续时间窗，非经起降记录核实的完整飞行段",
+  "label_format": "drone cx cy cz dx dy dz [old_yaw]; new boxes omit yaw; use raw pose, never synthesize yaw"
+}

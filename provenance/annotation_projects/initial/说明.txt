@@ -1,0 +1,16 @@
+﻿待标注：新增1060帧点云
+
+train/pcd：767个PCD；train/poses.txt：767条对应原始pose。
+val/pcd：83个PCD；val/poses.txt：83条对应原始pose。
+test/pcd：210个PCD；test/poses.txt：210条对应原始pose。
+
+pose每一行以PCD文件名开头，后面的原始数值完整保留，不重新计算yaw。
+点云与pose对应表.csv同时记录原始采集序列、文件路径及原始pose行。
+train来自pcd_pose_20250515；val和test来自pcd_pose_20250515_1的不同飞行段候选。
+保持文件名、点云坐标及train/val/test归属，方便标注后对应。
+这是已有1500帧候选方案中新增的1060帧；旧的440帧未重复放入。
+有争议的16帧旧数据仍单独保留，本轮未删除。
+原始点云及原始poses.txt均未修改。
+
+补充：已在D:\points找到旧脚本和原始pose时间戳。详见“找到的旧标注流程.txt”。
+各集合的poses_with_timestamp.txt保留原始带时间戳的pose行；pose时间戳对应表.csv记录PCD文件对应关系。
