@@ -1,4 +1,5 @@
 @echo off
-cd /d "%~dp0..\..\..\.."
-"D:\anaconda3\python.exe" "%~dp0..\..\..\..\launch_supplement.py"
+set "ANNOTATION_PYTHON=python"
+if exist "D:\anaconda3\python.exe" set "ANNOTATION_PYTHON=D:\anaconda3\python.exe"
+"%ANNOTATION_PYTHON%" "%~dp0..\..\..\..\..\..\scripts\annotate.py" --project supplement
 if errorlevel 1 pause
